@@ -1,0 +1,26 @@
+:root {
+	--bar-color: rgb(221, 161, 139);
+}
+
+.array-bar {
+	background-color: var(--bar-color);
+	width: 5px;
+	display: inline-flex;
+	margin: 0px 1px;
+	color: var(--bar-color);
+	font-size: 1pt;
+}
+
+.showcase {
+	text-align: center;
+
+	overflow: hidden;
+	background-color: aliceblue;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+.active {
+	background-color: rgb(211, 110, 211);
+}
